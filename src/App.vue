@@ -4,7 +4,11 @@
       <router-link to="/">Home</router-link> |
       <router-link to="Page2">Page2</router-link> |
       <router-link to="inputAddDelete">inputAddDelete</router-link> |
-      <router-link to="VuexAdd">VuexAdd</router-link>
+      <router-link to="VuexAdd">VuexAdd</router-link> |
+      <router-link to="Experiment">Experiment</router-link> |
+      <router-link to="GetPost">GetPost</router-link>
+
+
     </div>
     <router-view />
   </div>

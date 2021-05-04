@@ -4,6 +4,9 @@ import Home from "../views/Home.vue";
 import Page2 from "../views/Page2.vue";
 import inputAddDelete from "../views/inputAddDelete.vue";
 import VuexAdd from "../views/VuexAdd.vue";
+import Experiment from "../views/Experiment.vue";
+import GetPost from "../views/GetPost.vue";
+
 
 
 Vue.use(VueRouter);
@@ -28,6 +31,16 @@ const routes = [
     path: "/VuexAdd",
     name: "VuexAdd",
     component: VuexAdd
+  },
+  {
+    path: "/Experiment",
+    name: "Experiment",
+    component: Experiment
+  },
+  {
+    path: "/GetPost",
+    name: "GetPost",
+    component: GetPost
   }
   
 ];

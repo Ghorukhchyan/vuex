@@ -11,6 +11,8 @@ export const INPUT = 'mutation/INPUT';
 export const CLEAR = 'mutation/CLEAR';
 export const DELL_LINE = 'mutation/DELL_LINE';
 export const COLOUR = 'mutation/COLOUR';
+export const GET = 'mutation/GET';
+
 
 
 

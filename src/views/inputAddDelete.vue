@@ -11,8 +11,8 @@
         v-for="(value, index) in list"
         :key="index"
       >
-       <h3 v-if="!editing">{{ value.text }}</h3> 
-        <input v-else type="text"/>
+        <h3 v-if="!editing">{{ value.text }}</h3>
+        <input v-else type="text" />
         <!-- <p></p> -->
         <button @click="dellText(index)">Remove</button>
         <button @click="changeTextStatus(index)">Change Colour</button>
@@ -23,6 +23,7 @@
   </div>
 </template>
 <script>
+  
 import { mapState, mapActions, mapGetters } from "vuex";
 export default {
   data() {
